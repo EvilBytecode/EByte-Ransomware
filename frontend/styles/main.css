@@ -1,0 +1,90 @@
+.sidebar {
+    height: 100vh;
+    width: 80px;
+    background: linear-gradient(180deg, #0d1117, #1f2937);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 2px 0 15px rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar a {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #9ca3af;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.sidebar a i {
+    font-size: 20px;
+    z-index: 1;
+}
+
+.sidebar a:hover {
+    background: linear-gradient(90deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.3));
+    box-shadow: 0 4px 8px rgba(59, 130, 246, 0.2);
+}
+
+.sidebar a.active {
+    background: rgba(59, 130, 246, 0.2);
+    color: white;
+}
+
+.card {
+    background: linear-gradient(145deg, #1f2937, #111827);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card canvas {
+    max-height: 100px; 
+    max-width: 100%; 
+    margin-top: 10px; 
+}
+
+#launch-chart {
+height: auto; 
+max-height: none; 
+width: 100%; 
+}
+.icon-lock {
+    color: #3b82f6;
+}
+
+.icon-rocket {
+    color: #10b981;
+}
+
+.icon-virus {
+    color: #ef4444;
+}
+
+.icon-lock:hover {
+    color: #2563eb;
+}
+
+.icon-rocket:hover {
+    color: #059669;
+}
+
+.icon-virus:hover {
+    color: #dc2626;
+}
+
+
