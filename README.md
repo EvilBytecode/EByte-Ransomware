@@ -39,3 +39,5 @@ I chose this unique combination of encryption methods for several reasons:
 ![Second](https://github.com/user-attachments/assets/4e227eae-7a61-4a05-9914-4276ad68027e)
 ![In Action](https://github.com/user-attachments/assets/6b50e00d-9160-462e-b16a-5876536248ee)
 
+# Credits:
+- https://github.com/SecDbg/Prince-Ransomware
