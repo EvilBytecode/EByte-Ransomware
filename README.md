@@ -37,3 +37,4 @@ I chose this unique combination of encryption methods for several reasons:
 ## Showcase:
 ![First](https://github.com/user-attachments/assets/7c742129-81c1-45c4-9044-6da7583091e7)
 ![Second](https://github.com/user-attachments/assets/4e227eae-7a61-4a05-9914-4276ad68027e)
+
