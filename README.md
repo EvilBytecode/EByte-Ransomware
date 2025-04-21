@@ -37,3 +37,7 @@ I chose this unique combination of encryption methods for several reasons:
 
 # Credits:
 - https://github.com/SecDbg/Prince-Ransomware
+
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
