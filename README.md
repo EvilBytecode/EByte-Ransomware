@@ -1,4 +1,6 @@
 # EByte-Ransomware
+## Telegram:
+- https://t.me/ebytelabs
 Go ransomware leveraging ChaCha20 and ECIES encryption with a web-based control panel.
 
 ---
